@@ -1,0 +1,21 @@
+/* App specific styles */
+.App {
+    min-height: 100vh;
+}
+
+/* Ensure smooth transitions */
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* Custom focus styles */
+:focus-visible {
+    outline: 2px solid hsl(221 83% 53%);
+    outline-offset: 2px;
+}
+
+/* Selection color */
+::selection {
+    background-color: hsl(221 83% 53% / 0.2);
+    color: hsl(222 47% 11%);
+}

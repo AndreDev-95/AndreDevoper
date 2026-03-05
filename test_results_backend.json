@@ -1,0 +1,13 @@
+{
+  "total_tests": 20,
+  "passed_tests": 19,
+  "failed_tests": [
+    {
+      "test": "Analytics Revenue (Admin)",
+      "message": "Cannot create test admin (Status: 400) - Admin already exists. Cannot test analytics endpoint without admin credentials.",
+      "response": null
+    }
+  ],
+  "warnings": [],
+  "timestamp": "2026-02-25T14:35:50.571032"
+}

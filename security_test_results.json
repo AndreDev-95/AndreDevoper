@@ -1,0 +1,18 @@
+{
+  "total_tests": 14,
+  "passed_tests": 12,
+  "failed_tests": [
+    {
+      "test": "Admin Security Stats",
+      "message": "Cannot create test admin (Status: 400) - Admin probably already exists. Cannot test security stats endpoint without admin credentials.",
+      "response": null
+    },
+    {
+      "test": "Admin Audit Logs",
+      "message": "Cannot test admin audit logs endpoint without admin credentials",
+      "response": null
+    }
+  ],
+  "warnings": [],
+  "timestamp": "2026-02-25T14:49:44.605057"
+}
